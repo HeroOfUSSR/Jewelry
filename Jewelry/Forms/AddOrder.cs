@@ -24,7 +24,7 @@ namespace Jewelry.Forms
             InitializeComponent();
         }
 
-        private void DobOrders_Load(object sender, EventArgs e)
+        private void AddOrder_Load(object sender, EventArgs e)
         {
   
             var queryString = $"SELECT id,name FROM jewels";
@@ -58,7 +58,7 @@ namespace Jewelry.Forms
 
             command.ExecuteNonQuery();
 
-            MessageBox.Show("Запись созданна");
+            MessageBox.Show("Запись создана");
 
 
             database.CloseConnection();
@@ -73,6 +73,8 @@ namespace Jewelry.Forms
         {
             tv2 = tv[comboBox1.SelectedIndex];
         }
+
+     
     }
 }
 

@@ -77,10 +77,6 @@ namespace Jewelry.Forms
             textBox5.Text = "";
         }
 
-        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
-        }
 
         private void Jewels_Load(object sender, EventArgs e)
         {
@@ -119,11 +115,6 @@ namespace Jewelry.Forms
 
         }
 
-        private void button2_Click(object sender, EventArgs e)
-        {
-            search(dataGridView1);
-
-        }
 
         private void search(DataGridView dwg)
         {
@@ -170,7 +161,7 @@ namespace Jewelry.Forms
 
         }
 
-        private void button3_Click(object sender, EventArgs e)
+        private void button5_Click_1(object sender, EventArgs e)
         {
             ClearField();
             RefreshDatagrid(dataGridView1);
@@ -419,6 +410,7 @@ namespace Jewelry.Forms
             ExcelApp.Visible = true;
             ExcelApp.UserControl = true;
         }
+
 
     }
 }

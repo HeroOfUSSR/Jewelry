@@ -163,6 +163,7 @@
             this.Controls.Add(this.button1);
             this.Name = "AddOrder";
             this.Text = "Добавление заказа";
+            this.Load += new System.EventHandler(this.AddOrder_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
