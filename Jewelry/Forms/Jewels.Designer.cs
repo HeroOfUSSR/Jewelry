@@ -50,7 +50,6 @@
             this.Red = new System.Windows.Forms.Button();
             this.button7 = new System.Windows.Forms.Button();
             this.Sav = new System.Windows.Forms.Button();
-            this.button9 = new System.Windows.Forms.Button();
             this.button10 = new System.Windows.Forms.Button();
             this.label7 = new System.Windows.Forms.Label();
             this.textBox6 = new System.Windows.Forms.TextBox();
@@ -267,15 +266,6 @@
             this.Sav.UseVisualStyleBackColor = true;
             this.Sav.Click += new System.EventHandler(this.Sav_Click_1);
             // 
-            // button9
-            // 
-            this.button9.Location = new System.Drawing.Point(542, 311);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(100, 34);
-            this.button9.TabIndex = 17;
-            this.button9.Text = "Импорт";
-            this.button9.UseVisualStyleBackColor = true;
-            // 
             // button10
             // 
             this.button10.Location = new System.Drawing.Point(12, 311);
@@ -321,7 +311,6 @@
             this.Controls.Add(this.textBox6);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.button10);
-            this.Controls.Add(this.button9);
             this.Controls.Add(this.button7);
             this.Controls.Add(this.Sav);
             this.Controls.Add(this.button5);
@@ -368,7 +357,6 @@
         private System.Windows.Forms.Button Red;
         private System.Windows.Forms.Button button7;
         private System.Windows.Forms.Button Sav;
-        private System.Windows.Forms.Button button9;
         private System.Windows.Forms.Button button10;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.TextBox textBox6;

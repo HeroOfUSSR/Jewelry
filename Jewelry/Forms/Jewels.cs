@@ -132,7 +132,7 @@ namespace Jewelry.Forms
 
             if (dataGridView1.Rows.Count == 0)
             {
-                MessageBox.Show("Такого товара нету");
+                MessageBox.Show("Совпадения отсутствуют. Проверьте поисковые данные.");
             }
 
 
@@ -411,7 +411,10 @@ namespace Jewelry.Forms
             ExcelApp.UserControl = true;
         }
 
+        private void button9_Click(object sender, EventArgs e)
+        {
 
+        }
     }
 }
 
