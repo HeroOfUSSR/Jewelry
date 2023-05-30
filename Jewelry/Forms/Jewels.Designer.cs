@@ -274,18 +274,18 @@
             // 
             // button10
             // 
-            this.button10.Location = new System.Drawing.Point(442, 351);
+            this.button10.Location = new System.Drawing.Point(12, 311);
             this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(200, 24);
+            this.button10.Size = new System.Drawing.Size(206, 34);
             this.button10.TabIndex = 18;
-            this.button10.Text = "Таблица клиентов";
+            this.button10.Text = "Оформление заказа";
             this.button10.UseVisualStyleBackColor = true;
             this.button10.Click += new System.EventHandler(this.button10_Click);
             // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(12, 332);
+            this.label7.Location = new System.Drawing.Point(12, 361);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(39, 13);
             this.label7.TabIndex = 19;
@@ -293,14 +293,14 @@
             // 
             // textBox6
             // 
-            this.textBox6.Location = new System.Drawing.Point(57, 329);
+            this.textBox6.Location = new System.Drawing.Point(57, 358);
             this.textBox6.Name = "textBox6";
             this.textBox6.Size = new System.Drawing.Size(161, 20);
             this.textBox6.TabIndex = 20;
             // 
             // button11
             // 
-            this.button11.Location = new System.Drawing.Point(224, 329);
+            this.button11.Location = new System.Drawing.Point(224, 358);
             this.button11.Name = "button11";
             this.button11.Size = new System.Drawing.Size(75, 20);
             this.button11.TabIndex = 21;
@@ -329,7 +329,7 @@
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.dataGridView1);
             this.Name = "Jewels";
-            this.Text = "Form1";
+            this.Text = "Ювелирная мастерская \"У Мойши\" ";
             this.Load += new System.EventHandler(this.Jewels_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.panel1.ResumeLayout(false);

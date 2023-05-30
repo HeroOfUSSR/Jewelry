@@ -38,7 +38,7 @@ namespace Jewelry.Forms
 
             if (int.TryParse(textBox2.Text, out price))
             {
-                var a = $"insert into jewels (id,name,price,type,[kol-vo]) values('{id}','{name}','{price}','{vid}','{kol}')";
+                var a = $"insert into jewels (id,name,price,type,kol-vo) values('{id}','{name}','{price}','{vid}','{kol}')";
 
                 var command = new SqlCommand(a, database.GetSqlConnection());
 

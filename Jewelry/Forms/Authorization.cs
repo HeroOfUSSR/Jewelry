@@ -43,7 +43,7 @@ namespace Jewelry.Forms
             SqlDataAdapter adapter = new SqlDataAdapter();
             DataTable table = new DataTable();
 
-            string query = $"select id_user,login_user,password_user from register where  login_user='{login}'  and password_user='{password}'";
+            string query = $"select id,login_user,password_user from register where login_user='{login}' and password_user='{password}'";
             SqlCommand command = new SqlCommand(query, database.GetSqlConnection());
 
             adapter.SelectCommand = command;
